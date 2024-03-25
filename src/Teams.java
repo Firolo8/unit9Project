@@ -21,11 +21,10 @@ public class Teams extends Nba {
     }
 
 
-    public boolean equals(Object obj) {
-        if (teamName.equals(obj.teamName)){
+    public boolean equals(Teams obj) {
+        if (this.teamName.equals(obj.getTeamName())) {
             return true;
-        }
-        else{
+        } else {
             return false;
         }
     }

@@ -21,8 +21,8 @@ public class Players extends Teams {
     }
 
 
-    public boolean equals(Object obj) {
-        if (playerName.equals(obj.playerName)){
+    public boolean equals(Players obj) {
+        if (this.playerName.equals(obj.getPlayerName())){
             return true;
         }
         else{
